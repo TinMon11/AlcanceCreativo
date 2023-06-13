@@ -41,7 +41,7 @@ const Contactanos = () => {
         "service_alcance",
         "template_alcance",
         event.target,
-        process.env.EMAIL_JS_KEY,
+        process.env.REACT_APP_EMAIL_JS_KEY,
         {
           name: event.target.name.value,
           whatsapp: event.target.whatsapp.value,
