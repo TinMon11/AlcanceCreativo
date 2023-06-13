@@ -94,7 +94,7 @@ const Contactanos = () => {
     });
 
     let nombreString = "";
-    if (name != "") {
+    if (name !== "") {
       nombreString = `Hola, mi nombre es ${name}. `;
     } else {
       nombreString = `Hola equipo de Alcance Creativo. `;
