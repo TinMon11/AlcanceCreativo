@@ -42,7 +42,7 @@ const RedesHome = () => {
           <img
             className="object-contain rounded-[50px] mx-auto rounded-bl-[60px] rounded-br-[10px] rounded-tl-[15px] rounded-tr-[60px]"
             src={RedesHomeImage}
-            alt=""
+            alt="Imagen Redes Sociales para promocionar servicios de Gestión de Redes Sociales"
           />
         </div>
       </div>

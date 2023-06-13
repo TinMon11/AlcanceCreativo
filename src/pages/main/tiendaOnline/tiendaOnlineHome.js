@@ -43,7 +43,7 @@ const tiendaOnlineHome = () => {
           <img
             className="object-contain rounded-[50px] mx-auto rounded-bl-[60px] rounded-br-[10px] rounded-tl-[15px] rounded-tr-[60px]"
             src={tiendaOnlineImage}
-            alt=""
+            alt="Imagen Tienda Online para promocionar servicios de creación de ecommerce. TiendaNube"
           />
         </div>
       </div>

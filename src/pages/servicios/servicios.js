@@ -4,6 +4,7 @@ import "animate.css";
 import facebbookAds from "../../assets/facebookAds.png";
 import googleAds from "../../assets/googleAds.png";
 import redesHome from "../../assets/redesHome.png";
+import tiendaHome from "../../assets/tiendaOnlineImage.png";
 
 
 const services = [
@@ -29,7 +30,7 @@ const services = [
       id: "redesHome",
   },
   {
-    image: facebbookAds,
+    image: tiendaHome,
     title: "Tienda Online",
     description:
       "Atrae más clientes con una Tienda Online atractiva. Potencia tus ventas en el mundo digital.",

@@ -43,7 +43,7 @@ const googleHome = () => {
           <img
             className="object-contain rounded-[50px] mx-auto rounded-bl-[60px] rounded-br-[10px] rounded-tl-[15px] rounded-tr-[60px]"
             src={GoogleAdsHome}
-            alt=""
+            alt="Imagen Marketing Digital Google Ads para promocionar servicios de Google Ads Google Adwords"
           />
         </div>
       </div>

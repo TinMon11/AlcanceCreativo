@@ -17,7 +17,7 @@ const metaHome = () => {
               META ADS
             </h1>
           </div>
-          <div>
+          <h2>
             <p className="text-sm md:text-xl lg:text-2xl text-start align-middle animate__animated animate__fadeInUp">
               Convierte seguidores en clientes fieles. <br />
               Haz crecer tu negocio con anuncios efectivos en Facebook e
@@ -25,7 +25,7 @@ const metaHome = () => {
               nuestra ayuda, tus anuncios en Facebook e Instagram generarán
               resultados reales y aumentaran tus ventas.
             </p>
-          </div>
+          </h2>
           <div className="mt-6">
             <button
               className="btn btn-accent w-48"
@@ -42,7 +42,7 @@ const metaHome = () => {
           <img
             className="object-contain rounded-[50px] mx-auto rounded-bl-[60px] rounded-br-[10px] rounded-tl-[15px] rounded-tr-[60px]"
             src={MetaAdsHome}
-            alt=""
+            alt="Imagen Marketing Digital Facebook para promocionar servicios de Meta Ads"
           />
         </div>
       </div>

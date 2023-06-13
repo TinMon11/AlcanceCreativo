@@ -23,7 +23,7 @@ const RedesDetail = () => {
             <ul className="list-disc ml-4 mt-4">
               <li>3 posteos y 3 stories por semana.</li>
               <li>
-                Creación de contenido visual esencial para mantener una
+                Creación de contenido visual para mantener una
                 presencia efectiva.
               </li>
               <li>
@@ -52,7 +52,7 @@ const RedesDetail = () => {
           <div className="text-sm text-start ml-2 mt-2 w-7/8 bg-base-100 text-black">
             <ul className="list-disc ml-4 mt-4">
               <li>5 posteos y 5 stories por semana.</li>
-              <li>Creactión de material visual de para impresionar a tu audiencia.</li>
+              <li>Creación de material visual para impresionar a tu audiencia.</li>
               <li>Diseño de imágenes y/o animaciones impactantes y cautivadoras.</li>
               <li>Personalización del diseño acorde a tu marca y estilo.</li>
               <li>Potencia tu presencia en las redes sociales con un pack profesional y de alto impacto.</li>

@@ -26,7 +26,7 @@ const main = () => {
       </div>
 
       <div className="m-auto animate__animated animate__fadeInRight">
-        <img className="mt-10 h-72 md:h-96" src={MobileMain} alt="" />
+        <img className="mt-10 h-72 md:h-96" src={MobileMain} alt="Servicios de Marketing Digital para emprendedores" />
       </div>
     </div>
   );
