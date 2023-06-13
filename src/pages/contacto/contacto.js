@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import { ToastContainer, toast } from "react-toastify";
-import dotenv from "dotenv";
-dotenv.config();
 import "react-toastify/dist/ReactToastify.css";
 
 const Contactanos = () => {
@@ -41,7 +39,7 @@ const Contactanos = () => {
         "service_alcance",
         "template_alcance",
         event.target,
-        process.env.REACT_APP_EMAIL_JS_KEY,
+        "L8PP8a67GUJU6kcT5",
         {
           name: event.target.name.value,
           whatsapp: event.target.whatsapp.value,
