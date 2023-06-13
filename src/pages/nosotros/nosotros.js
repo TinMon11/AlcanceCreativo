@@ -1,5 +1,6 @@
 import React from "react";
 import fotoMartin from "../../assets/foto_martin.png";
+import fotoFiorella from "../../assets/foto_fiorella.png";
 import Avatar from "../../components/avatar";
 
 const team = [
@@ -9,7 +10,7 @@ const team = [
     text: "Ingeniero Industrial y Desarrollador Web especializado en Marketing Digital y Posicionamiento Web. Tengo la experiencia necesaria para llevar tu negocio al siguiente nivel.",
   },
   {
-    image: fotoMartin,
+    image: fotoFiorella,
     name: "FIORELLA",
     text: "Diseñadora y Community Manager con experiencia en Publicidad Digital y gestión de Redes Sociales. Mi objetivo es crear una imagen de marca impactante y atractiva para impulsar tus ventas en línea.",
   },
