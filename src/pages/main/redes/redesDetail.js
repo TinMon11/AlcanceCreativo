@@ -55,6 +55,9 @@ const RedesDetail = () => {
               <li>Creación de material visual para impresionar a tu audiencia.</li>
               <li>Diseño de imágenes y/o animaciones impactantes y cautivadoras.</li>
               <li>Personalización del diseño acorde a tu marca y estilo.</li>
+              <li>
+                Adaptación del contenido a las distintas plataformas sociales (Feed & Stories).
+              </li>
               <li>Potencia tu presencia en las redes sociales con un pack profesional y de alto impacto.</li>
             </ul>
           </div>
