@@ -2,7 +2,6 @@ import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/navbar";
 import AllContents from "./pages/AllContents";
-import Preguntas from "./pages/preguntas/preguntas";
 
 function App() {
   return (
@@ -15,7 +14,6 @@ function App() {
           <div className="content">
             <Routes>
               <Route path="/" element={<AllContents />} />
-              <Route path="/preguntas" element={<Preguntas />} />
             </Routes>
           </div>
         </div>
