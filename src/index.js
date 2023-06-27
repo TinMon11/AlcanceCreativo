@@ -1,19 +1,30 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import '../src/styles/index.css';
-import '../src/styles/fonts.css';
-import App from './App';
-import { Helmet } from 'react-helmet';
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "../src/styles/index.css";
+import "../src/styles/fonts.css";
+import App from "./App";
+import { Helmet } from "react-helmet";
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>;
 
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <Helmet>
+      {/* Google Analytics */}
+      <script>{`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-THJWK6V9FJ');
+        `}</script>
+      <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-THJWK6V9FJ"
+      ></script>
+      {/* Facebook Pixel */}
       <script>{`
         !function(f,b,e,v,n,t,s)
         {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -35,5 +46,3 @@ root.render(
     <App />
   </React.StrictMode>
 );
-
-
